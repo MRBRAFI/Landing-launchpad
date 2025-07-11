@@ -52,10 +52,12 @@
     background-image: url(./Assets/Hero-bg.png);
     background-repeat: no-repeat;
     max-width: 1440px;
-    height: 698px;
+    height: 600px;
     text-align: center;
     margin: -5px 250px 0px;
     padding-top: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 .heading_div_1 {
@@ -67,8 +69,9 @@
 }
 
 .web_name {
-    font-size: 34px;
-    font-weight: 800;
+    font-size: 50px;
+    font-weight: 900;
+    /* text-shadow: 5px 5px #ffe347; */
 }
 
 .btn_1 {
@@ -102,6 +105,8 @@
     max-width: 1440px;
     position: relative;
 }
+
+/* main section */
 
 /* action section */
 
@@ -206,7 +211,7 @@
 
 .from_users {
     font-size: 50px;
-    font: 800;
+    font-weight: 700;
 }
 
 .recommendations {
@@ -226,8 +231,9 @@
 }
 
 .date {
-    font: 16px;
+    font-size: 18px;
     font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
 }
 
 .users_image {
@@ -317,8 +323,9 @@ form textarea {
     height: 50px;
     border: none;
     border-radius: 10px;
-    padding: 5px 0px 5px 25px;
+    padding: 15px 0px 5px 25px;
     background-color: aliceblue;
+    resize: none;
 }
 
 .btn_5 {
@@ -331,3 +338,38 @@ form textarea {
     padding:12px 36px;
     border-radius: 10px;
 }
+
+/* login section ends */
+
+/* Final section -- about ZEPHYR */
+
+.final_section {
+    max-width: 1440px;
+    text-align: center;
+    margin: 0px 220px 0px;
+    padding: 100px 300px;
+}
+
+.the_company {
+    font-size: 100px;
+    font-weight: 900;
+    /* text-shadow: 5px 5px #ffe347; */
+}
+
+.contact_us {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    color: rgba(137, 135, 161, 1);
+}
+
+.imp_links {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(137, 135, 161, 1);
+    margin: 50px;
+}
+
+/* ==========End of the css=========== */
