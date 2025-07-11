@@ -235,3 +235,42 @@
     height: 55px;
     width: 55px;
 }
+
+/* Users feedback section ends */
+
+/* joining section */
+
+.joining_section {
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    border-radius: 14px;
+    text-align: center;
+    margin: 116px 220px 0px;
+    padding: 71px 0px;
+}
+
+.suggestion {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.quote {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.btn_4 {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding:12px 36px;
+    border-radius: 10px;
+    margin: 20px 200px;
+}
+
+.image_4 {
+    border-radius: 48px;
+}
+
+/* joining section ends */
