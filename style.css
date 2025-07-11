@@ -146,7 +146,6 @@
     text-align: center;
     align-content: center;
     justify-content: center;
-    position: absolute;
     margin: 116px 220px 0px;
     padding: 50px 0px 50px 0px;
 }
@@ -172,4 +171,67 @@
     font-weight: 400;
     color: rgba(37, 36, 50, 0.5);
     margin-top: -50px;
+}
+
+/* Users usage and satisfaction statistics ends */
+
+/* Users feedback section */
+
+.users_feedback_main_section {
+    width: 100%;
+    text-align: center;
+    margin: 116px 220px 0px;
+}
+
+.users_section {
+    display: flex;
+    text-align: left;
+}
+
+.users_feedback {
+    width: 33.33%;
+    height: auto;
+    border-radius: 25px;
+    margin: 25px;
+    padding: 25px;
+    background-color:aliceblue;
+    box-shadow: 0px 0px 20px 0.1px #4E47FF;
+}
+
+.reviewers_identity {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.from_users {
+    font-size: 50px;
+    font: 800;
+}
+
+.recommendations {
+    font-size: 30px;
+    color: #4E47FF;
+}
+
+.feedbacks {
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.users_name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.date {
+    font: 16px;
+    font-weight: 400;
+}
+
+.users_image {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
 }
